@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --ff-open-sans: "Open Sans", sans-serif;
+  --ff-inter: "Inter", sans-serif;
+
+  --clr-green-100: #50c878;
+  --clr-green-300: #136f22;
+
+  --clr-white: #ffffff;
+
+  --clr-black: #000000;
+  --clr-black-100: #111111;
+
+  --clr-grey-100: #e3e3e3;
+  --clr-grey-200: #fdfdfd;
+  --clr-grey-300: #8e8e8e;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  font-family: var(--ff-open-sans);
+  background-color: var(--clr-white);
+  color: var(--clr-black);
+  line-height: 32px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.btn {
+  height: 60px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 1.25rem;
+  display: grid;
+  place-content: center;
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: var(--clr-green-100);
+  color: var(--clr-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-green-100);
+  border: 1px solid var(--clr-green-100);
+}
+
+.btn-secondary {
+  background-color: var(--clr-white);
+  color: var(--clr-green-100);
+  border: 1px solid var(--clr-green-100);
+}
+
+.btn-secondary:hover {
+  background-color: var(--clr-green-100);
+  color: var(--clr-white);
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-item {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.item-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.align-bottom {
+  align-items: end;
+}
