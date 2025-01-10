@@ -1,5 +1,4 @@
 import LatestUpdate from "./latestUpdate";
-import Spinner from "./Spinner";
 import blogs from "../services/blogs.json";
 
 export default function LatestUpdateListings({ isHome = false }) {
