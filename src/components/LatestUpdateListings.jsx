@@ -1,4 +1,4 @@
-import LatestUpdate from "./latestUpdate";
+import LatestUpdate from "./LatestUpdate";
 import blogs from "../services/blogs.json";
 
 export default function LatestUpdateListings({ isHome = false }) {
