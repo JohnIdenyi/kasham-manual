@@ -225,7 +225,7 @@ export const teamMembers = [
 export const impactDetails = [
   {
     image: "/images/story1.png",
-    text: '"Before KGWYCD, I struggled to support my family. Today, I own a small business and my children are in school."',
+    text: '"The Clean Up Use Up (CUP) pilot project directly trained 49 youths in polythene recycling."',
   },
   {
     image: "/images/story2.png",
