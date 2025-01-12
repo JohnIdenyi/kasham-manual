@@ -75,6 +75,7 @@ li {
   place-content: center;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .btn-primary {
