@@ -10,7 +10,7 @@ export default function LatestUpdate({ id, image, description, date }) {
           <Link to={`/blogs/${id}`} className="latest__link">
             Read More
           </Link>
-          <span>{date}</span>
+          {/* <span>{date}</span> */}
         </div>
       </div>
     </div>
