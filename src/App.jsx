@@ -15,6 +15,7 @@ import DonatePage from "./pages/DonatePage";
 import BlogPage from "./pages/BlogPage";
 import "./App.css";
 import "./App2.css";
+import "./mobile.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

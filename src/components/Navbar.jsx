@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import Hamburger from "./Hamburger";
 import logo from "../assets/images/logo.png";
 
 export default function Navbar() {
@@ -31,7 +32,7 @@ export default function Navbar() {
         <div className="flex justify-item align-center">
           <div className="nav__logo">
             <NavLink to="/">
-              <img src={logo} alt="" />
+              <img src={logo} alt="logo" />
             </NavLink>
           </div>
           <ul className="nav__lists flex align-center">
@@ -64,6 +65,7 @@ export default function Navbar() {
           <NavLink to="/donate" className="nav__btn btn btn-primary">
             Donate
           </NavLink>
+          <Hamburger menu={menu} setMenu={setMenu} />
         </div>
       </div>
     </nav>
