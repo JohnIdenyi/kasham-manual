@@ -79,7 +79,7 @@ export default function Footer() {
                     />
                   </svg>
 
-                  <p>info@kasham.org</p>
+                  <p>kashamngo@gmail.com</p>
                 </div>
               </div>
             </div>
