@@ -49,7 +49,7 @@
   transition: 5s;
 
   animation-name: heroSlider;
-  animation-duration: 15s;
+  animation-duration: 17s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
