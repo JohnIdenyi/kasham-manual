@@ -72,15 +72,15 @@ export default function Hamburger({ menu, setMenu }) {
             About Us
           </NavLink>
         </li>
-        <NavLink>
-          <a
+        <li>
+          <NavLink
             className="nav__link mobile__nav-link"
             to="/impact"
             onClick={() => setMenu(false)}
           >
             Impact
-          </a>
-        </NavLink>
+          </NavLink>
+        </li>
         <li>
           <NavLink
             className="nav__link mobile__nav-link"
