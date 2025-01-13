@@ -77,7 +77,14 @@ export default function Footer() {
                     />
                   </svg>
 
-                  <p>kashamngo@gmail.com</p>
+                  <p>
+                    <a
+                      className="footer__kasham-gmail"
+                      href="mailto:kashamngogmail.com"
+                    >
+                      kashamngo@gmail.com
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
