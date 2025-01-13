@@ -11,10 +11,6 @@
 }
 
 @media (max-width: 768px) {
-  .hero__section {
-    animation: none;
-  }
-
   @keyframes heroMobileSlider {
     0% {
       background-image: url("/images/hero-mobile.png");

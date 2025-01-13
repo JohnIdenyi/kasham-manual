@@ -47,11 +47,6 @@
   }
 
   /***** Hero section **/
-  .hero .container {
-    max-width: 100%;
-    padding: 0;
-  }
-
   .hero__section {
     background: none;
     animation: none;
@@ -60,9 +55,11 @@
 
   .hero__mobile {
     display: block;
-    background: url("/images/hero-mobile.png") no-repeat center center / contain;
+    background: url("/images/hero-mobile.png") no-repeat center center / cover;
     min-height: 370px;
     width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
     animation-name: heroMobileSlider;
   }
 
