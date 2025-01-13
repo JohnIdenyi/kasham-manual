@@ -330,7 +330,7 @@
 
   /* Other pages other homepage */
 
-  /* Contact */
+  /* Contact Page */
   .contact {
     margin-top: 16px;
   }
@@ -360,5 +360,61 @@
 
   .contact__image {
     display: none;
+  }
+
+  /* About Page */
+  .about__header {
+    margin: 16px 0;
+    max-width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .our-story {
+    margin-top: 64px;
+  }
+
+  .our-story__main {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .our-story__header {
+    font-size: 1.5rem;
+  }
+
+  .vision {
+    margin-top: 64px;
+  }
+
+  .vision__cards {
+    flex-direction: column;
+  }
+
+  .vision__card {
+    padding: 40px 30px;
+    max-width: 100%;
+  }
+
+  .vison__header {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  /* Founder */
+  .founder {
+    margin-top: 64px;
+  }
+
+  .founder__details {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .founder__text {
+    max-width: 100%;
+  }
+
+  .founder__header {
+    font-size: 1.8rem;
   }
 }

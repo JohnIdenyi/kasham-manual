@@ -2,7 +2,7 @@ export default function OurStory() {
   return (
     <section className="our-story">
       <div className="container">
-        <div className="flex justify-item">
+        <div className="our-story__main flex justify-item">
           <h3 className="our-story__header">Our Story</h3>
           <div className="our-story__details">
             <p>
