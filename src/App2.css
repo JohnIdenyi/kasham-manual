@@ -284,12 +284,13 @@
 }
 
 .contact__desc {
-  margin: 20px 0 48px;
+  margin-top: 20px;
   font-size: 1.25rem;
 }
 
 .contact__form {
   display: grid;
+  margin-top: 48px;
   gap: 24px;
 }
 

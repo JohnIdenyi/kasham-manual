@@ -119,7 +119,7 @@ export default function ContactPage() {
               </button>
             </form>
           </div>
-          <div className="image">
+          <div className="contact__image">
             <img src={contactImage} alt="" />
           </div>
         </div>

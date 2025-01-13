@@ -327,4 +327,38 @@
   .footer__media {
     order: 1;
   }
+
+  /* Other pages other homepage */
+
+  /* Contact */
+  .contact {
+    margin-top: 16px;
+  }
+
+  .contact__text-container {
+    padding: 0;
+  }
+
+  .contact__header {
+    font-size: 2rem;
+  }
+
+  .contact__desc {
+    margin-top: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .contact__form {
+    margin-top: 24px;
+  }
+
+  .contact__name {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact__image {
+    display: none;
+  }
 }
