@@ -59,6 +59,18 @@
   display: none;
 }
 
+.hero--animation {
+  transition: 5s;
+
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-delay: 0s;
+}
+
 .hero__text {
   position: absolute;
   top: 346px;
