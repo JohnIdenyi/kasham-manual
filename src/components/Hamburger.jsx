@@ -99,6 +99,15 @@ export default function Hamburger({ menu, setMenu }) {
             Contact
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/donate"
+            className="nav__btn nav--mobile-btn btn btn-primary"
+            onClick={() => setMenu(false)}
+          >
+            Donate
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

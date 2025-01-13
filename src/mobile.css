@@ -51,6 +51,10 @@
     gap: 20px;
   }
 
+  .nav--mobile-btn {
+    display: grid;
+  }
+
   /***** Hero section **/
   .hero__section {
     background: none;
@@ -330,38 +334,6 @@
 
   /* Other pages other homepage */
 
-  /* Contact Page */
-  .contact {
-    margin-top: 16px;
-  }
-
-  .contact__text-container {
-    padding: 0;
-  }
-
-  .contact__header {
-    font-size: 2rem;
-  }
-
-  .contact__desc {
-    margin-top: 16px;
-    font-size: 1rem;
-    line-height: 24px;
-  }
-
-  .contact__form {
-    margin-top: 24px;
-  }
-
-  .contact__name {
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .contact__image {
-    display: none;
-  }
-
   /* About Page */
   .about__header {
     margin: 16px 0;
@@ -450,7 +422,6 @@
 
   .member__name {
     font-size: 0.875rem;
-    /* text-wrap: nowrap; */
   }
 
   /* Blog */
@@ -503,5 +474,37 @@
 
   .blog-single__desc-container {
     margin-bottom: 50px;
+  }
+
+  /* Contact Page */
+  .contact {
+    margin-top: 16px;
+  }
+
+  .contact__text-container {
+    padding: 0;
+  }
+
+  .contact__header {
+    font-size: 2rem;
+  }
+
+  .contact__desc {
+    margin-top: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .contact__form {
+    margin-top: 24px;
+  }
+
+  .contact__name {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact__image {
+    display: none;
   }
 }
