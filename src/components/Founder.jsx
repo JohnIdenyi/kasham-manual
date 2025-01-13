@@ -6,7 +6,9 @@ export default function Founder() {
       <div className="container">
         <div className="founder__details flex justify-item">
           <div className="founder__text">
-            <h3 className="founder__header">Meet our founder</h3>
+            <h3 className="founder__header founder--desktop">
+              Meet our founder
+            </h3>
             <p>
               Growing up in Nigeria, I witnessed firsthand the challenges that
               many face, from limited access to education and healthcare to the
@@ -31,6 +33,9 @@ export default function Founder() {
             <p className="founder__bottom-text">Dinnatu Dama Maji</p>
           </div>
           <div>
+            <h3 className="founder__header founder--mobile">
+              Meet our founder
+            </h3>
             <img src={founder} alt="" />
           </div>
         </div>

@@ -71,6 +71,10 @@
   font-size: 2.5rem;
 }
 
+.founder--mobile {
+  display: none;
+}
+
 .founder__bottom-text {
   font-weight: 600;
   margin-top: 15px;

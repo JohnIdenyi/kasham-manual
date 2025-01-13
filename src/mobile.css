@@ -413,10 +413,19 @@
 
   .founder__text {
     max-width: 100%;
+    order: 2;
   }
 
   .founder__header {
     font-size: 1.8rem;
+  }
+
+  .founder--desktop {
+    display: none;
+  }
+
+  .founder--mobile {
+    display: block;
   }
 
   /* Board */
