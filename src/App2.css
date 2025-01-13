@@ -201,7 +201,7 @@
 
 /* Impact */
 .impact-hero--bg {
-  background: url("..//images/impact-hero.png") no-repeat center center / cover;
+  background: url("../images/impact-hero.png") no-repeat center center / cover;
   height: 600px;
   position: relative;
   padding: 162px 0 125px;
@@ -266,7 +266,7 @@
   object-fit: cover;
 }
 
-.highlight--order-2 {
+.highlight--order-1 {
   order: 2;
 }
 

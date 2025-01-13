@@ -18,14 +18,18 @@ export default function ImpactHighlights() {
         <img className="highlight__image" src={highlightImg1} alt="" />
       </div>
       <div className="highlight__card">
-        <div className="highlight__text-container highlight--order-2">
+        <div className="highlight__text-container highlight--order-1">
           <p className="highlight__header">Impact stories</p>
           <p className="highlight__desc">
             Our Youth Leadership program has empowered over 1,000 young people
             to take active roles in their communities.
           </p>
         </div>
-        <img className="highlight__image" src={highlightImg2} alt="" />
+        <img
+          className="highlight__image highlight--order-2"
+          src={highlightImg2}
+          alt=""
+        />
       </div>
       <div className="highlight__card">
         <div className="highlight__text-container">

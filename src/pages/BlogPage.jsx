@@ -9,8 +9,6 @@ export default function BlogPage() {
     return item.id === id;
   });
 
-  console.log(blog);
-
   return (
     <section className="blog-single">
       <div className="container">
@@ -25,8 +23,8 @@ export default function BlogPage() {
             return <p key={index}>{item}</p>;
           })}
         </div>
+        <SocialMediaLinks />
       </div>
-      <SocialMediaLinks />
     </section>
   );
 }
