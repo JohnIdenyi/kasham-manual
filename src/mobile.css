@@ -367,6 +367,7 @@
     margin: 16px 0;
     max-width: 100%;
     font-size: 1.5rem;
+    line-height: 1.4;
   }
 
   .our-story {
@@ -379,7 +380,7 @@
   }
 
   .our-story__header {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .vision {
@@ -416,5 +417,25 @@
 
   .founder__header {
     font-size: 1.8rem;
+  }
+
+  /* Board */
+  .board-team {
+    margin-top: 64px;
+  }
+
+  .board-team__title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .board-team__title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .board-team__cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
