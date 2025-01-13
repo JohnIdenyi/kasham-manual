@@ -1,15 +1,32 @@
-import video1 from "../assets/images/video-1.png";
+import { useRef } from "react";
+import video1 from "../assets/videos/video-1.mp4";
 import video2 from "../assets/images/video-2.png";
 import video3 from "../assets/images/video-3.png";
 
 export default function Video() {
+  const videoRef = useRef(null);
+
+  const handlePlayVideo = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  };
+
   return (
     <section className="video">
       <div className="container">
         <h3 className="video__header">Video documentary</h3>
         <div className="video__cards flex">
           <div className="video__card">
-            <img className="video__image" src={video1} alt="" />
+            <video
+              className="video__image"
+              ref={videoRef}
+              src={video1}
+              controls
+              onClick={handlePlayVideo}
+            >
+              Your browser does not support the video tag.
+            </video>
             <div className="video__card-text">
               <p className="video__subheader">
                 Video / <span className="video__location">Kano</span>

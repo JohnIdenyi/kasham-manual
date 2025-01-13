@@ -327,6 +327,7 @@
 
   .footer__copyrights {
     order: 2;
+    text-wrap: nowrap;
   }
 
   .footer__media {
