@@ -6,10 +6,10 @@ export default function Video() {
   return (
     <section className="video">
       <div className="container">
-        <h3 className="video__header">video on Kasham</h3>
+        <h3 className="video__header">Video documentary</h3>
         <div className="video__cards flex">
           <div className="video__card">
-            <img src={video1} alt="" />
+            <img className="video__image" src={video1} alt="" />
             <div className="video__card-text">
               <p className="video__subheader">
                 Video / <span className="video__location">Kano</span>
@@ -32,7 +32,7 @@ export default function Video() {
             </div>
           </div>
           <div className="video__card">
-            <img src={video2} alt="" />
+            <img className="video__image" src={video2} alt="" />
             <div className="video__card-text">
               <p className="video__subheader">
                 Video / <span className="video__location">Kano</span>
@@ -55,7 +55,7 @@ export default function Video() {
             </div>
           </div>
           <div className="video__card">
-            <img src={video3} alt="" />
+            <img className="video__image" src={video3} alt="" />
             <div className="video__card-text">
               <p className="video__subheader">
                 Video / <span className="video__location">Kano</span>

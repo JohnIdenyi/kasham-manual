@@ -24,7 +24,7 @@ export const homeStats = [
 export const aboutStats = [
   {
     statsImage: "/images/benefits/indirect.png",
-    statsHeader: "Beneficiaries Impacteds",
+    statsHeader: "Beneficiaries Impacted",
     statsNumber: 100000,
   },
   {

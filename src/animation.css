@@ -9,3 +9,21 @@
     background-image: url("/images/hero3.png");
   }
 }
+
+@media (max-width: 768px) {
+  .hero__section {
+    animation: none;
+  }
+
+  @keyframes heroMobileSlider {
+    0% {
+      background-image: url("/images/hero-mobile.png");
+    }
+    55% {
+      background-image: url("/images/hero2-mobile.png");
+    }
+    100% {
+      background-image: url("/images/hero3-mobile.png");
+    }
+  }
+}

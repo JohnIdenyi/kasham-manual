@@ -31,7 +31,7 @@ export default function Hamburger({ menu, setMenu }) {
     </div>
   ) : (
     <div className="mobile__nav">
-      <div className="flex justify-item">
+      <div className="flex justify-item align-center">
         <div className="nav__logo">
           <NavLink to="/">
             <img src={logo} alt="logo" />

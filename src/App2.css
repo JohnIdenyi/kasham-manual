@@ -179,7 +179,16 @@
 }
 
 .social__link {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
   cursor: pointer;
+  overflow: hidden;
+}
+
+.social__link:hover {
+  background-color: var(--clr-grey-100);
 }
 
 /* Impact */

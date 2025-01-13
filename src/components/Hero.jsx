@@ -5,7 +5,8 @@ export default function Hero() {
   return (
     <main className="hero">
       <div className="container">
-        <div className="hero__section">
+        <div className="hero__section hero--animation">
+          <div className="hero__mobile hero--animation"></div>
           <div className="hero__text">
             <h1 className="hero__header">
               Empowering Women, And Transforming Communities

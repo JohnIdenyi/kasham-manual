@@ -6,14 +6,12 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer__section">
+          <div className="footer__main flex">
+            <img className="footer__logo" src={footerLogo} alt="" />
+            <p>kASHAM GIRLS, WOMEN YOUTH & COMMUNITY DEVELOPMENT INITIATIVE</p>
+          </div>
           <div className="footer__info flex justify-item">
             <div className="footer__contact">
-              <div className="footer__main flex">
-                <img className="footer__logo" src={footerLogo} alt="" />
-                <p>
-                  kASHAM GIRLS, WOMEN YOUTH & COMMUNITY DEVELOPMENT INITIATIVE
-                </p>
-              </div>
               <div className="footer__offices">
                 <div className="flex footer__office">
                   <svg
@@ -92,7 +90,7 @@ export default function Footer() {
             </div>
             <div className="footer__send">
               <p className="footer__subtext">Stay up to date</p>
-              <div className="footer__form">
+              <div className="footer__form flex">
                 <input
                   type="email"
                   className="footer__email"
@@ -108,11 +106,11 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footer__bottom flex justify-item">
+          <div className="footer__bottom flex justify-item align-center">
             <p className="footer__copyrights">
               © 2024 KASHAM. All rights reserved.
             </p>
-            <div className="footer__media flex">
+            <div className="footer__media flex align-center">
               <a
                 href="https://x.com/kgwycdn?t=mvvIQAyNY55GJAsZQGKUEg&s=09"
                 target="_blank"

@@ -3,9 +3,9 @@ import meeting from "../assets/images/meeting.png";
 
 export default function Agenda() {
   return (
-    <section>
+    <section className="agenda">
       <div className="container">
-        <div className="agenda flex justify-item align-center">
+        <div className="agenda__main flex justify-item align-center">
           <div className="agenda__textSection flex">
             <img className="agenda__colors" src={colors} alt="" />
             <div className="agenda__texts">
