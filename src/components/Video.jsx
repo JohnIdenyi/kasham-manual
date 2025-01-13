@@ -44,7 +44,7 @@ export default function Video() {
                     fill="black"
                   />
                 </svg>
-                <span>Gender Inclusion</span>
+                <span>Gender Based Awareness</span>
               </div>
             </div>
           </div>

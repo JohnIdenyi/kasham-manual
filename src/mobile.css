@@ -3,6 +3,11 @@
     padding: 0 20px;
   }
 
+  .btn {
+    font-size: 1rem;
+    height: 50px;
+  }
+
   .nav__lists,
   .nav__btn {
     display: none;
@@ -56,23 +61,11 @@
   .hero__mobile {
     display: block;
     background: url("/images/hero-mobile.png") no-repeat center center / cover;
-    min-height: 370px;
+    height: 300px;
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
     animation-name: heroMobileSlider;
-  }
-
-  .hero--animation {
-    transition: 5s;
-
-    animation-duration: 15s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-delay: 0s;
   }
 
   .hero__text {
@@ -89,6 +82,7 @@
     max-width: 398px;
     font-size: 0.875rem;
     margin: 4px 0 24px;
+    line-height: 24px;
   }
 
   /***** Mission section **/
