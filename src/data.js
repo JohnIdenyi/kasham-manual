@@ -153,7 +153,7 @@ export const boardMembers = [
     image: "/images/board/board-1.png",
   },
   {
-    name: "Dr. Hauwa Umar Usman",
+    name: "Dr. Hauwa Usman",
     role: "Board Member",
     image: "/images/board/board-2.png",
   },

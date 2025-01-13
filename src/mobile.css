@@ -448,6 +448,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .member__name {
+    font-size: 0.875rem;
+    /* text-wrap: nowrap; */
+  }
+
   /* Blog */
   .blogs-hero__bg {
     padding: 40px 0;
