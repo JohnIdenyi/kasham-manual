@@ -461,4 +461,33 @@
     width: 56px;
     height: 54px;
   }
+
+  /* Single blog page */
+  .blog-single__hero {
+    padding: 30px;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .blog-single__hero-header {
+    font-size: 2rem;
+  }
+
+  .blog-single__hero-desc {
+    font-size: 1rem;
+    max-width: 100%;
+    text-align: left;
+    line-height: 28px;
+  }
+
+  .blog-single__main-header {
+    font-size: 1.5rem;
+  }
+
+  .blog-single__desc-container {
+    margin-bottom: 50px;
+  }
 }

@@ -19,7 +19,7 @@ export default function BlogPage() {
           <p className="blog-single__hero-desc">{blog[0].description}</p>
         </div>
         <img src={blog[0].coverPhoto} alt="" />
-        <h1 className="blog-single__header">{blog[0].title}</h1>
+        <h1 className="blog-single__main-header">{blog[0].title}</h1>
         <div className="blog-single__desc-container">
           {blog[0].detailTexts.map((item, index) => {
             return <p key={index}>{item}</p>;

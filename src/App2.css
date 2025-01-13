@@ -105,6 +105,7 @@
   font-size: 0.875rem;
 }
 
+/* Blog */
 .blogs-hero__bg {
   background-color: var(--clr-green-300);
   color: var(--clr-white);
@@ -156,7 +157,7 @@
   line-height: 36px;
 }
 
-.blog-single__header {
+.blog-single__main-header {
   font-size: 2.25rem;
   text-transform: uppercase;
   margin-top: 54px;
@@ -169,6 +170,7 @@
   line-height: 28px;
 }
 
+/* Social */
 .social__desc {
   text-align: center;
   font-weight: 600;
