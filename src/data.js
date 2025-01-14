@@ -229,7 +229,7 @@ export const impactDetails = [
   },
   {
     image: "/images/story2.png",
-    text: '"The Clean Up Use Up (CUP) pilot project directly trained 49 youths in polythene recycling."',
+    text: '"Creating a Haven of Hope: The Kasham Safe Space (KSS) Project."',
   },
   {
     image: "/images/story3.png",
