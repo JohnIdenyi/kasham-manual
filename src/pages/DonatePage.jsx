@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function DonatePage() {
-  const accountNumber = "8003568066";
+  const accountNumber = "2042017992";
   const [copyStatus, setCopyStatus] = useState("");
 
   const handleCopy = () => {
@@ -47,7 +47,9 @@ export default function DonatePage() {
           </div>
           <div>
             <p className="donate__transfer-name">Account Name</p>
-            <p className="donate__transfer-details">Kasham</p>
+            <p className="donate__transfer-details">
+              KASHAM GIRLS WOMEN YOUTH AND COMMUNITY DEVELOPMENT NETWORK
+            </p>
           </div>
           <div className="flex justify-item align-bottom">
             <div>
