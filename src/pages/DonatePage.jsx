@@ -43,7 +43,7 @@ export default function DonatePage() {
         <div className="donate__transfer-info">
           <div>
             <p className="donate__transfer-name">Bank Name</p>
-            <p className="donate__transfer-details">WEMA Bank</p>
+            <p className="donate__transfer-details">First Bank</p>
           </div>
           <div>
             <p className="donate__transfer-name">Account Name</p>
