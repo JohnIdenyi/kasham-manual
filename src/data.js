@@ -148,7 +148,7 @@ export const blogPosts = [
 
 export const boardMembers = [
   {
-    name: "Dinmatu Dama Maji",
+    name: "Dinatu Dama Maji",
     role: "Executive Director",
     image: "/images/board/board-1.png",
   },
